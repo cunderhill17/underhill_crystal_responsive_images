@@ -24,3 +24,13 @@ body {
    white-space: nowrap !important; 
    border: 0 !important; 
 }
+
+.util-card {
+    width: 100%;
+    min-height: 100px;
+    margin: 10px 0px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
