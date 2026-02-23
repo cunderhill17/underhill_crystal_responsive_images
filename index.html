@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Responsive Images</title>
 </head>
 <body>
     
+    <h1 class="visually-hidden">Responsive Images</h1>
+
+    <header class="grid-con">
+        <section class="util-card col-span-full md:col-start-3 md:col-end-7 lg:col-start-5 lg:col-end-9">
+            <h2 class="visually-hidden">Brand Logo</h2>
+            <p>brand logo</p>
+        </section>
+    </header>
+
+    <section class="grid-con">
+        <h2 class="visually-hidden">Brand Advertisement</h2>
+        <div class="util-card col-span-full">
+            <p>Hero Image</p>
+        </div>
+    </section>
+
+    <section class="grid-con">
+        <h2 class="visually-hidden">Responsive Images Explanation</h2>
+        <div class="util-card col-span-full">
+            <p>
+                I use several complementary techniques to make images responsive and ensure they look great across different screen sizes. For decorative or hero sections where text or other elements need to be layered on top, I apply images using the CSS background-image property. This allows me to control positioning, scaling, and overlay content easily, and I use media queries to swap out different image files at specific breakpoints so the design stays optimized for mobile, tablet, and desktop layouts. 
+            </p>
+            <p>
+                When an image needs to change more significantly—such as shifting orientation, composition, or focal point at different screen sizes—I use the &lt;picture&gt; element, which lets me define multiple sources and conditions so the browser can load the most appropriate version. Finally, for standard content images, I rely on the &lt;img&gt; tag with the srcset attribute, enabling the browser to automatically choose the best image file based on screen size and resolution. Together, these approaches ensure both performance and visual consistency across devices.
+            </p>
+        </div>
+    </section>
+
+    <section class="grid-con">
+        <h2 class="visually-hidden">Product Images</h2>
+
+        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
+            <p>Product Image</p>
+        </div>
+
+        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
+            <p>Product Image</p>
+        </div>
+
+        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
+            <p>Product Image</p>
+        </div>
+    </section>
+
+    <section class="grid-con">
+        <h2 class="visually-hidden">Product Advertisements</h2>
+
+        <div class="util-card col-span-full">
+            <p>Product Advertisement</p>
+        </div>
+
+        <div class="util-card col-span-full">
+            <p>Product Advertisement</p>
+        </div>
+    </section>
+
+
+
 
     <script src="js/main.js"></script>
 </body>
