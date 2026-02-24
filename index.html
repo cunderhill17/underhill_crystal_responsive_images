@@ -36,20 +36,27 @@
         </div>
     </section>
 
+    <!-- Responsive images using the <picture> tag in order to change the orientation between horizontal and vertical orientation of the bottles -->
     <section class="grid-con">
         <h2 class="visually-hidden">Product Images</h2>
 
-        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
-            <p>Product Image</p>
-        </div>
+        <picture class="col-span-full md:col-span-full lg:col-span-4">
+            <source srcset="images/bottle-front-bergamot-400.png" media="(min-width: 1200px)">
+            <source srcset="images/bottle-side-bergamot-835.png" media="(min-width: 768px)">
+            <img src="images/bottle-side-bergamot-412.png" alt="Bergamot Liqueur">
+        </picture>
 
-        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
-            <p>Product Image</p>
-        </div>
+        <picture class="col-span-full md:col-span-full lg:col-span-4">
+            <source srcset="images/bottle-front-blood-orange-400.png" media="(min-width: 1200px)">
+            <source srcset="images/bottle-side-blood-orange-830.png" media="(min-width: 768px)">
+            <img src="images/bottle-side-blood-orange-412.png" alt="Blood Orange Liqueur">
+        </picture>
 
-        <div class="util-card col-span-full md:col-span-full lg:col-span-4">
-            <p>Product Image</p>
-        </div>
+        <picture class="col-span-full md:col-span-full lg:col-span-4">
+            <source srcset="images/bottle-front-dark-cherry-400.png" media="(min-width: 1200px)">
+            <source srcset="images/bottle-side-dark-cherry-824.png" media="(min-width: 768px)">
+            <img src="images/bottle-side-dark-cherry-412.png" alt="Bergamot Liqueur">
+        </picture>
     </section>
 
     <!-- Responsive images using <img> and srcset -->
