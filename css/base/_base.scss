@@ -7,6 +7,10 @@ body {
     background-color: #F5F1E8;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Utility Classes */
 
 .hidden {
@@ -33,4 +37,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+/* Font Styling */
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    color: #6B5B4C;
+    margin: 10px 0px;
 }
