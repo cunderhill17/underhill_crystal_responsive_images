@@ -38,6 +38,8 @@ body {
 .full-width-grid-con {
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  max-width: 1920px;
+  margin: 0px auto;
 }
 
 .grid-con {
