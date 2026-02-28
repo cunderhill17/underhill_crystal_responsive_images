@@ -80,12 +80,14 @@ p {
 }
 @media screen and (min-width: 768px) {
   #hero-text p {
-    font-size: 40px;
+    margin-top: 40px;
+    font-size: 55px;
   }
 }
 @media screen and (min-width: 1200px) {
   #hero-text p {
-    font-size: 60px;
+    margin-top: 60px;
+    font-size: 75px;
   }
 }
 
