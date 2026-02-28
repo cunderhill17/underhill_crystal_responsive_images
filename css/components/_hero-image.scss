@@ -1,0 +1,42 @@
+.background {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    background-image: url(../images/hero-image-412.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 412 / 218;
+
+    @media screen and (min-width: 768px) {
+        background-position: top;
+        grid-column: 1/-1;
+        aspect-ratio: 1324 / 699;
+        background-image: url(../images/hero-image-1324.jpg);
+    }
+
+    @media screen and (min-width: 1320px) {
+        aspect-ratio: 1938 / 1023;
+        background-image: url(../images/hero-image-1938.jpg);
+    }
+}
+
+
+#hero-text {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    height: fit-content;
+
+    p {
+        margin-top: 20px;
+        font-size: 25px;
+        color: #E2D8CE;
+
+        @media screen and (min-width:  768px) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width:  1200px) {
+            font-size: 60px;
+        }
+    }
+}
